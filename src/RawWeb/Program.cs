@@ -11,7 +11,7 @@ using Microsoft.Framework.ConfigurationModel;
 using Microsoft.Framework.Runtime;
 using Microsoft.Net.Http.Server;
 
-namespace ConsoleApp9
+namespace RawWeb
 {
     public class Startup
     {
