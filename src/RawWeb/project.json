@@ -1,0 +1,20 @@
+﻿{
+    "version": "1.0.0-*",
+    "dependencies": {
+        "Microsoft.AspNet.Server.WebListener": "1.0.0-*",
+        "Kestrel": "1.0.0-*",
+        "Microsoft.Framework.Logging.Console": "1.0.0-*"
+    },
+    "commands": {
+        "RawWeb": "run",
+        "kestrel": "kestrel"
+    },
+    "frameworks": {
+        "aspnet50": { },
+        "aspnetcore50": {
+            "dependencies": {
+                "System.Console": "4.0.0-beta-*"
+            }
+        }
+    }
+}

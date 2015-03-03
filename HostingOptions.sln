@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22625.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3C24C735-9B96-47CC-B436-EDD117C386A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1093B31C-A77C-40E4-A6DC-F490BE6B6149}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RawWeb", "src\RawWeb\RawWeb.kproj", "{99FF72AA-E434-4FA1-8E2F-B11DE6E839C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99FF72AA-E434-4FA1-8E2F-B11DE6E839C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99FF72AA-E434-4FA1-8E2F-B11DE6E839C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99FF72AA-E434-4FA1-8E2F-B11DE6E839C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99FF72AA-E434-4FA1-8E2F-B11DE6E839C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{99FF72AA-E434-4FA1-8E2F-B11DE6E839C4} = {3C24C735-9B96-47CC-B436-EDD117C386A3}
+	EndGlobalSection
+EndGlobal

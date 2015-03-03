@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConsoleApp9": {
+      "commandName": "ConsoleApp9",
+      "commandLineArgs": "test"
+    }
+  }
+}
